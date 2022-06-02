@@ -1,200 +1,220 @@
 * {
+    /* universal selector selects all elements within the html file */
     box-sizing: border-box;
+    /* sets the box-sizing to border-box */
     padding: 0;
+    /* sets padding = 0 */
     margin: 0;
+    /* sets margin = 0 */
 }
 
 body {
+    /* selects all body elements in the html file */
     background-color: #d9dcd6;
+    /* sets background-color to off white using hex values */
 }
 
 header {
+    /* selects the all header elements within the html file */
     padding: 20px;
+    /* sets the padding to 20 pixels */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* sets the font-family to 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
     background-color: #2a607c;
+    /* sets the background color to dark blue using hex values */
     color: #ffffff;
+    /* sets the text color to white using hex values */
 }
 
 header h1 {
+    /* selects the h1 element within the header element */
     display: inline-block;
+    /* sets the display to inline-block */
     font-size: 48px;
+    /* sets the font size to 48 pixels */
 }
 
-header h1 .seo {
+.seo {
+    /* selects all elements with class = "seo" in html file */
     color: #d9dcd6;
+    /* sets the color to light grey using hex values */
 }
 
 header div {
+    /* selects the div element within the header element */
     padding-top: 15px;
+    /* sets the top padding to 15 pixels */
     margin-right: 20px;
+    /* sets the right margin to 20 pixels */
     float: right;
+    /* sets the float to the right position */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* sets the font family to 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
     font-size: 20px;
+    /* sets the font size to 20 pixels */
 }
 
 header div ul {
+    /* selects the unordered list element, within the div element, within the header element */
     list-style-type: none;
+    /* sets the list-style-type to none */
 }
 
 header div ul li {
+    /* selects list item element, within the unordered list element, within the div element of the header element */
     display: inline-block;
+    /* sets the display to inline-block */
     margin-left: 25px;
+    /* sets the margin left to 25 pixels */
 }
 
 a {
+    /* selects all "a" elements in html file*/
     color: #ffffff;
+    /* changes color to white */
     text-decoration: none;
+    /* sets text decoration to none */
 }
 
 p {
+    /* selects all "p" paragraph elements in html file */
     font-size: 16px;
+    /* sets font size to 16 pixels */
 }
 
 .hero {
+    /* selects all elements with class "hero" in html file */
     height: 800px;
+    /* sets height to 800 pixels */
     width: 100%;
+    /* sets width to 100% */
     margin-bottom: 25px;
+    /* sets the bottom margin to 25 pixels */
     background-image: url("../images/digital-marketing-meeting.jpg");
+    /* sets the background image to a url path to a jpeg file within the images folder */
     background-size: cover;
+    /* sets the background-size to cover */
     background-position: center;
+    /* positions the background to center */
 }
 
 .float-left {
+    /* selects all elements with class = "float-left" in html file */
     float: left;
+    /* sets float to left position */
     margin-right: 25px;
+    /* sets the right margin to 25 pixels */
 }
 
 .float-right {
+    /* selects all elements with class = "float-right" in html file */
     float: right;
+    /* sets float to right position */
     margin-left: 25px;
+    /* sets the left margin to 25 pixels */
 }
 
 .content {
+    /* selects all elements with class = "content" in html file */
     width: 75%;
+    /* sets the width to 75% */
     display: inline-block;
+    /* sets the display to inline-block */
     margin-left: 20px;
+    /* sets the left margin to 20 pixels */
 }
 
 .benefits {
+    /* selects all elements with class = "benefits" in html file */
     margin-right: 20px;
+    /* sets the right margin to 20 pixels */
     padding: 20px;
+    /* applies padding of 20 pixels */
     clear: both;
+    /* clear controls the flow next to float elements sets to both */
     float: right;
+    /* sets the float to the right position */
     width: 20%;
+    /* sets the width to 20% */
     height: 100%;
+    /* sets the height to 100% */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* sets the font family to 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
     background-color: #2589bd;
+    /* sets the background color to blue using hex values*/
 }
 
-.benefit-lead {
+.benefit-lead, .benefit-brand, .benefit-cost {
+    /* selects all elements with classes = "benefit-lead", "benefit-brand", and "benefit cost" in html file */
     margin-bottom: 32px;
+    /* sets the bottom margin to 32 pixels */
     color: #ffffff;
+    /* sets the text color to white using hex values */
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    /* selects all elements with classes = "benefit-lead h3", "benefit-brand h3", and "benefit cost h3" in html file */
     margin-bottom: 10px;
+    /* sets the bottom margin to 10 pixels */
     text-align: center;
+    /* aligns the text to center position */
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    /* selects all elements with classes = "benefit-lead img", "benefit-brand img", and "benefit cost img" in html file */
     display: block;
+    /* sets display to block */
     margin: 10px auto;
+    /* sets margin to 10 pixels auto */
     max-width: 150px;
+    /* sets the maximum width to 150 pixels */
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    /* selects all elements with classes = "search-engine-optimization", "online-repuation-management", and "social-media-marketing" in html file */
     margin-bottom: 20px;
+    /* sets bottom margin to 20 pixels */
     padding: 50px;
+    /* applies padding of 50 pixels */
     height: 300px;
+    /* sets height to 300 pixels */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* sets font family to 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
     background-color: #0072bb;
+    /* sets background color to blue */
     color: #ffffff;
+    /* sets text color to white using hex values */
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    /* selects all elements with classes = "search-engine-optimization img", "online-repuation-management img", and "social-media-marketing img" in html file */
     max-height: 200px;
+    /* apply max-height of the image to 200 pixels */
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    /* selects all elements with classes = "search-engine-optimization h2", "online-repuation-management h2", and "social-media-marketing h2" in html file */
     margin-bottom: 20px;
+    /* sets the bottome margin to 20 pixels */
     font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    /* sets font-size to 36 pixels */
 }
 
 footer {
+    /* selects all footer elements in html file */
     padding: 30px;
+    /* adds 30 pixel padding around the footer element  */
     clear: both;
+
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* sets the font-family to 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
     text-align: center;
+    /* aligns the text to center position */
 }
 
 footer h2 {
+    /* selects all h2 elements within the footer element in html file */
     font-size: 20px;
+    /* sets the font-size to 20 pixels */
 }
