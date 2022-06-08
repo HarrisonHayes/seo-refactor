@@ -17,6 +17,13 @@ Users are able to click each option in the top right of the page and it will bri
 
 ![Seo-Refactor](assets/images/SEO-RefactorIMG.JPG)
 
+## Resources:
+
+[Github:](https://github.com/HarrisonHayes/seo-refactor)
+
+[Live:](https://harrisonhayes.github.io/seo-refactor/)
+
+
 ## Authors-and-Acknoledgement:
 Harrison Hayes
 
